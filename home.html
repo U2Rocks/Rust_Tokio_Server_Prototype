@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+    * {
+      font-family: arial;
+    }
+
+
+    body {
+      background-color: #AA6639;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 3em;
+      color: #fff;
+      text-align: center;
+    }
+
+    body input{
+      width: 60%;
+      padding: 20px;
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align: center;
+      font-size: 1.2em;
+      border-radius: 10px;
+      border: 1px white solid;
+      outline: None;
+    }
+
+    .buttonholder button{
+      padding: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: #552200;
+      text-align: center;
+      border: none;
+      color: #fff;
+      font-size: 1.5em;
+      border-radius: 10px;
+    }
+
+    .buttonholder {
+      align-items: center;
+      text-align: center;
+    }
+
+    .header {
+      text-align: center;
+      background-color: #AA6639;
+    }
+
+    .chatbox {
+      background-color: #804015;
+      margin-top: 10px;
+      display: inline-block;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    #main-chat-title{
+      color: #fff;
+    }
+
+    #chat-button:active {
+      color: black;
+      background-color: #FFCCAA;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <title>Rusty Chat</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Rusty Chat</h1>
+    </div>
+    <input type="text" placeholder="Type Messages Here...">
+    <div class="buttonholder">
+      <button id="chat-button">Send Message</button>
+    </div>
+    <div class="chatbox">
+      <h3 id="main-chat-title">Chatroom #1</h3>
+      <div class="chatarea">
+      </div>
+    </div>
+  </body>
+</html>
